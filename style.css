@@ -1,0 +1,25 @@
+*{
+  font-family: cursive;
+}
+.skills{
+  background-color: #ffffee;
+}
+.skills_table{
+  background-color:#ffffcc;
+}
+.experience{
+  background-color: #ffe6cc;
+}
+#experience{
+  background-color: #ff8000;
+  height: 2px;
+}
+h2{
+  color: black;
+}
+form{
+  text-decoration: underline;
+}
+a:hover{
+  color:#AE00AE;
+}
