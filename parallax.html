@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Parallax</title>
+<style>
+body, html {
+  height: 100%;
+  font-family: cursive;
+}
+.parallax {
+  height: 100%;
+  background-image: url('img_parallax.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+@media only screen and (max-device-width: 1366px) {
+    .parallax {
+        background-attachment: scroll;
+    }
+}
+.flex-container{
+  text-align: center;
+  color: #333333;
+  background-color:#f0f0f0;
+  margin: 15px;
+  padding: 10px;
+  border: 2px solid gray;
+}
+</style>
+</head>
+<body>
+ <span>Прокрутіть цю сторінку вгору та вниз, щоб побачити parallax scrolling effect.</span>
+ <div class="parallax"></div>
+ <div class="flex-container">
+    <h2>Привіт, мене звати Вероніка</h2>
+    <p>і це мій перший сайт з parallax-ефектом<p>
+    <p>Parallax effect – це тренд веб-сайту, в якому фоновий вміст (зображення) <br>
+      переміщується з різною швидкістю, ніж вміст переднього плану під час прокручування.<br>
+      Цей популярний ефект привертає увагу користувачів. Його варто використовувати,<br>
+      якщо ви хочете пожвавити сторінку під час скролінгу.<br>
+      У той час, як звичайні зображення змінюють місцезнаходження при прокручуванні,<br>
+      паралакс-зображення залишаються на місці.</p>
+ </div>
+ <div class="parallax"></div>
+</body>
+</html>
