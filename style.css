@@ -1,25 +1,57 @@
 *{
   font-family: cursive;
+  color: #333333;
 }
-.skills{
-  background-color: #ffffee;
+body{
+  background-color:#cccccc;
+  margin: 15px;
+}
+.flex-container1{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.посилання{
+  color: gray;
+  text-decoration: none;
+  margin: 10px;
+  padding: 8px;
+  border: 2px solid gray;
+  border-radius: 50%;
+}
+.flex-container2{
+  text-align: center;
+  margin: 30px;
+}
+.flex-container3{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+hr{
+  border-color: gray;
+  border-style: none;
+  border-top-style: solid;
+  border-width: thin;
+  width: 60%
+}
+.flex-container4{
+  display: flex;
+  justify-content: space-around;
+  margin: 10px;
+}
+.text{
+  text-align: center;
+  height: 90px;
+  width: 300px;
+  margin: 10px;
+  padding: 8px;
+  border: 2px solid gray;
+  background-color: #f0f0f0;
 }
 .skills_table{
-  background-color:#ffffcc;
-}
-.experience{
-  background-color: #ffe6cc;
-}
-#experience{
-  background-color: #ff8000;
-  height: 2px;
-}
-h2{
-  color: black;
-}
-form{
-  text-decoration: underline;
+  background-color:#f0f0f0;
 }
 a:hover{
-  color:#AE00AE;
-}
+  color:#333333;
+  border: none;
