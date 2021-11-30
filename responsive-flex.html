@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta name="viewport" content=" width=device-width, initial-scale=1">
+    <title>Responsive-flex</title>
+    <style media="screen">
+    body{
+      margin: 0px;
+      background-color: #fffafa;
+      font-family: cursive;
+    }
+    nav{
+      height: 75px;
+      background-color: #fffafa;
+      }
+    header{
+      height: 500px;
+      background-image: url("німеччина.jpg");
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      }
+      h1{
+        display: flex;
+        justify-content: center;
+        margin: 0px;
+        font-size: 50px;
+      }
+    section{
+      background-color: #fffafa;
+      margin-top: 75px;
+      margin-bottom: 75px;
+      margin-left: 100px;
+      margin-right: 100px;
+      height: 800px;
+      }
+    .dark_grey{
+      height: 40px;
+      background-color: silver;
+      }
+    footer{
+      height: 100px;
+      background-color: black;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      }
+      a{
+        color: white;
+        margin: 20px;
+      }
+    .yellow_paragraph{
+      height: 200px;
+      background-color: #faf0e6;
+      padding: 20px;
+      margin-bottom: 75px;
+      text-align: center;
+      }
+    #flex-container{
+      display: flex;
+      justify-content: flex-start;
+      }
+    .box_1{
+      height: 300px;
+      width: 48%;
+      margin-right: 35px;
+      background-image: url("німеччина1.jpg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+     }
+   .box_2{
+      height: 300px;
+      width: 48%;
+      margin-left: 20px;
+      background-image: url("німеччина2.jpg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+     }
+     #flex-container_2{
+       display: flex;
+       justify-content: flex-start;
+       }
+     .box_3{
+       margin-top: 10px;
+       height: 200px;
+       width: 48%;
+       margin-right: 35px;
+       background-color: #faf0e6;
+       padding: 5px;
+       text-align: center;
+      }
+    .box_4{
+       margin-top: 10px;
+       height: 200px;
+       width: 48%;
+       margin-left: 20px;
+       background-color: #faf0e6;
+       padding: 5px;
+       text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+   <nav><h1>Deutschland</h1></nav>
+   <header></header>
+   <section>
+    <p class="yellow_paragraph">Німеччина - це країна, приїжджаючи в яку щоразу хочеться відкривати для себе нові сторінки її історії, характер
+       і традиції жителів, незрівнянний контраст сільської природи і буднів великих міст. Нюренберг з його мостами і арками, чудові замки Хогеншвангау і Нойшвайштайн,
+       чудовий Шварцвальд, туристична Баварія з її багатим історичним минулим і природними пам'ятками, багатогранний Берлін, умиротворення Балтійського узбережжя,
+       найчистіші гірські озера тисячі туристів до Німеччини, країни порядку та мальовничої природи. Стародавні німецькі землі багаті на пам'ятники багатовікової культури – неприступні фортеці
+       та середньовічні замки, величні монастирі та прекрасні церкви, вишукані палаци та високі вежі, прекрасні сади та парки… німецької кухні, відвідування захоплюючих музеїв та приємні прогулянки
+       вузькими мощеними вуличками. Німеччина – це ковдра, ніби зіткана з різних епох, історичних подій і культур.
+       Столиця країни – найкраще тому підтвердження. У Берліні сучасні споруди є сусідами з готичними соборами, а твори в стилі модерн з відреставрованими палацами в класичному стилі.
+       З оглядового майданчика Телевежі можна оглянути та порівняти архітектурні особливості Східного та Західного Берліна. Трохи вище розташований ресторан, де можна відпочити і дуже добре перекусити, продовжуючи огляд панорами.</p>
+    <div id="flex-container">
+     <div class="box_1"></div>
+     <div class="box_2"></div>
+    </div>
+    <div id="flex-container">
+     <div class="box_3"><p>Прикро, але факт: у Берліні збереглося дуже мало по-справжньому історичних пам'яток. Здебільшого це ретельно та дуже акуратно відновлені резиденції, собори, цілі квартали.
+       Почати варто, звісно, ​​з «серця» міста, де пульсує Рейхстаг, який ніколи не спить, і височіють символічні Бранденбурзькі ворота. Найкращі оглядові майданчики — з телевежі
+       на Александерплатц , з купола Рейхстагу, з монумента Перемоги у парку «Тіргартен» та з розташованого на площі Постдамер ультрасучасного панорамного майданчика зі швидкісним ліфтом Panoramapunkt. </p></div>
+     <div class="box_4"><p>Головне місце тяжіння всіх дітей у Берліні - зоопарк, що займає перше місце у світі за кількістю видів тварин. Чи варто говорити,
+       що й півдня в його заплутаних кулуарах не межа? Ще один статус «най-най» захопив берлінський Музей природознавства, де знаходиться 23-метровий скелет
+       динозавра. Якщо хлопці ще не виросли до блукання музейними залами, варто відвести їх на великий тематичний ігровий майданчик «Лабіринт» (за фактом це також музей).
+       Тут представлено 10 різних залів-тем, які розповідають про читання, лист, математику — але не занудно, а у формі ігор, веселощів та виробів.</p></div>
+    </div>
+   </section>
+    <div class="dark_grey"></div>
+  <footer>
+    <span><a href="#">Home</a></span>
+    <span><a href="#">Contacts</a></span>
+    <span><a href="#">More</a></span>
+  </footer>
+  </body>
+</html>
